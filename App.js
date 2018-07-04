@@ -1,7 +1,20 @@
 import React, { Component } from 'react';
-import { AppRegistry, FlatList, StyleSheet, Text, View,Button, TextInput,TouchableHighlight,} from 'react-native';
+import { AppRegistry, FlatList, StyleSheet, Text, View,Button, TextInput,TouchableHighlight,Alert,} from 'react-native';
 import { List,ListItem } from 'react-native-elements'
-var i = 0;
+import { createStackNavigator } from 'react-navigation';
+
+export default createStackNavigator({
+  Home: {
+    screen: ListsScreen
+  },
+});
+
+// const RootStack = createStackNavigator({
+//   Home: {
+//     screen: HomeScreen
+//   },
+// });
+
 
 class UselessTextInput extends Component {
   render() {
@@ -15,8 +28,7 @@ class UselessTextInput extends Component {
   }
 }
 
-
-export default class ListsScreen extends Component {
+ class ListsScreen extends React.Component {
 
   constructor(props) {
    super(props);
@@ -26,22 +38,7 @@ export default class ListsScreen extends Component {
    };
 
  }
-/*
-_renderItem = ({item}) => {
 
-//  <TouchableHighlight onPress={this._onSelectList}>
-
-  <Text style={styles.item}>{item}</Text>
-  // <ListItem
-     title = {'hi'}
-   />
-   // </TouchableHighlight>
-}
-
-// _onSelectList = (list) => {
-//   return {alert('hi')}
-// }
-*/
 
 
   render() {
@@ -71,7 +68,9 @@ color="black"
 
     <FlatList
       data= {this.state.data}
-      renderItem = {({item}) => { <Text style={styles.item}>{item}</Text>}}
+    renderItem={({item}) =>  <ListItem
+       title = {item}  onPress={() => Alert.alert('hi') }
+     />  }
       keyExtractor={(item, index) => index.toString()}
     />
   </View>
