@@ -3,11 +3,11 @@ import { AppRegistry, FlatList, StyleSheet, Text, View,Button, TextInput,Touchab
 import { List,ListItem } from 'react-native-elements'
 import { createStackNavigator } from 'react-navigation';
 
-export default createStackNavigator({
-  Home: {
-    screen: ListsScreen
-  },
-});
+// export default createStackNavigator({
+//   Home: {
+//     screen: ListsScreen
+//   },
+// });
 
 // const RootStack = createStackNavigator({
 //   Home: {
