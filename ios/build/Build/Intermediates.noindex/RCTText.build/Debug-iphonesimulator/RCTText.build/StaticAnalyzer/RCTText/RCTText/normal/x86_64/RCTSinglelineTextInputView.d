@@ -1,0 +1,18 @@
+dependencies: \
+  /Users/mahgolfathi/todo/node_modules/react-native/Libraries/Text/TextInput/Singleline/RCTSinglelineTextInputView.m \
+  /Users/mahgolfathi/todo/node_modules/react-native/Libraries/Text/TextInput/Singleline/RCTSinglelineTextInputView.h \
+  /Users/mahgolfathi/todo/node_modules/react-native/Libraries/Text/TextInput/RCTBaseTextInputView.h \
+  /Users/mahgolfathi/todo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTView.h \
+  /Users/mahgolfathi/todo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBorderStyle.h \
+  /Users/mahgolfathi/todo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTComponent.h \
+  /Users/mahgolfathi/todo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTPointerEvents.h \
+  /Users/mahgolfathi/todo/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputDelegate.h \
+  /Users/mahgolfathi/todo/node_modules/react-native/Libraries/Text/TextInput/RCTBackedTextInputViewProtocol.h \
+  /Users/mahgolfathi/todo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridge.h \
+  /Users/mahgolfathi/todo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeDelegate.h \
+  /Users/mahgolfathi/todo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTJavaScriptLoader.h \
+  /Users/mahgolfathi/todo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTDefines.h \
+  /Users/mahgolfathi/todo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTBridgeModule.h \
+  /Users/mahgolfathi/todo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTFrameUpdate.h \
+  /Users/mahgolfathi/todo/ios/build/Build/Products/Debug-iphonesimulator/include/React/RCTInvalidating.h \
+  /Users/mahgolfathi/todo/node_modules/react-native/Libraries/Text/TextInput/Singleline/RCTUITextField.h
